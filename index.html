@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oxanium:wght@300;400;700&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <!--Css-->
+    <link rel="stylesheet" href="./src/CSS/reset.css">
+    <link rel="stylesheet" href="./src/CSS/style.css">
+    <link rel="stylesheet" href="./src/CSS/responsivo.css">
+</head>
+<body>
+    <header class="cabecalho">
+      <img class="logo" src="./src/imagens/Harry_Potter_wordmark.svg" alt="Logo">
+    </header>
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem </h1>
+            <ul class="lista-de-personagens">
+              <li class="personagem selecionado" id="harry" data-name="Harry Potter" data-description="Harry é um bruxo, filho único de James Potter e Lílian Evans Potter, considerado um dos mais famosos feiticeiros dos tempos modernos.">
+                <img class="log" src="./src/imagens/card-harry_resized.jpg" alt="Personagem Harry Potter">
+              </li>
+              <li class="personagem" id="hermione" data-name="Hermione Granger" data-description="Hermione Jean Granger é membro da casa Grifinória nascida trouxa, que se tornou a melhor amiga de Harry Potter e Ron Weasley. ">
+                <img class="log" src="./src/imagens/card-hermione_resized.jpg" alt="Personagem Hermione Grange">
+              </li>
+              <li class="personagem" id="DracoMalfoy" data-name="Draco Malfoy"  data-description="Draco Lúcio Malfoy é um bruxo sangue puro britânico nascido em 5 de junho de 1980 e o único filho de Lúcio e Narcisa Malfoy.">
+                <img class="log" src="./src/imagens/card-DracoMalfoy_resized.jpg" alt="Personagem Draco Malfo">
+              </li>
+              <li class="personagem" id="Hagrid" data-name="Hagrid" data-description="Professor Rúbeo Hagrid (nascido em 6 de dezembro de 1928) é um bruxo inglês meio-gigante, filho de um bruxo e de uma giganta chamada Fridwulfa e meio irmão mais velho de Grope.">
+                <img class="log" src="./src/imagens/card-Hagrid_resized.jpg" alt="Personagem Hagrid">
+              </li>
+              <li class="personagem" id="Dobby" data-name="Dobby" data-description="Dobby era o elfo domestico da Mansão Malfoy, servindo Lucius Malfoy, sua esposa Narcissa e seu único filho Draco. ">
+                <img class="log" src="./src/imagens/card-Dobby_resized.jpg" alt="Personagem Dobby">
+              </li>
+              <li class="personagem" id="RonWeasley" data-name="Ron Weasley" data-description="Rony começou a frequentar a Escola de Magia e Bruxaria de Hogwarts em 1991, sendo classificado para a Casa Grifinória. Ele rapidamente se tornou o melhor amigo de Harry Potter e Hermione Granger.">
+                <img class="log" src="./src/imagens/card-RonWeasley_resized.jpg" alt="Personagem Ron Weasley">
+              </li>
+              <li class="personagem" id="LordVoldemort" data-name="Lord Voldemort" data-description="Lorde Voldemort, foi um bruxo mestiço considerado o mais poderoso bruxo das trevas de todos os tempos.">
+                <img class="log" src="./src/imagens/card-LordVoldemort_resized.jpg" alt="Personagem LordVoldemort">
+              </li>
+              <li class="personagem" id="SeverusSnape" data-name="Severus Snape" data-description="O Professor Severo Snape (9 de janeiro de 1960 – 2 de maio de 1998) foi um bruxo mestiço, filho da bruxa Eileen Snape (nascida Prince) e o trouxa Tobias Snape.">
+                <img class="log" src="./src/imagens/card-SeverusSnape_resized.jpg" alt="Personagem Severus Snape">
+              </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-harry.jpg" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Harry Potter</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Harry é um bruxo, filho único de James Potter e Lílian Evans Potter, considerado um dos mais famosos feiticeiros dos tempos modernos.</p>
+            </div>
+        </section>
+    </main>
+
+  <!--Script-->
+  <script src="./src/js/script.js"></script>
+</body>
+</html>
