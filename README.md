@@ -2,4 +2,4 @@
 
 Passe o mouse e descubra o poder da magia
 
-< https://b00rges.github.io/harrypotter/ >
+< https://b00rges.github.io/harry-potter/ >
